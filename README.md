@@ -25,10 +25,14 @@
 ### 2. ソフトウェア（Unity / Scripts）
 Unity側の処理は以下のファイルにまとめています．
 
-| スクリプト | 役割 |
-| :--- | :---|
-| [`ChangeOrder.cs`](./TheMochitsuki/Assets/Scripts/ChangeOrder.cs) | 画像やオブジェクトの重なりを調整 |
-|
+| シーン |スクリプト | 役割 |
+| :--- | :--- | :---|
+| -- | [`ChangeOrder.cs`](./TheMochitsuki/Assets/Scripts/ChangeOrder.cs) | 画像やオブジェクトの重なりを調整 |
+| スタート | [`Blinker.cs`](./TheMochitsuki/Assets/Scripts/StartScene/Blinker.cs) | スタート画面に表示される文字の一定間隔での表示 / 非表示繰り返し |
+| スタート | [`PlayStart.cs`](./TheMochitsuki/Assets/Scripts/StartScene/PlayStart.cs) | ボタンが押されたらプレイ画面へ遷移 |
+| スタート | [`SerialHandler1.cs`](./TheMochitsuki/Assets/Scripts/StartScene/SerialHandler1.cs) | スタート画面でのArduinoとUnityのシリアル通信 |
+| スタート | [`SerialReceive1.cs`](./TheMochitsuki/Assets/Scripts/StartScene/SerialReceive1.cs) | スタート画面でArduinoから送信されたデータの検知　|
+| プレイ | [`BGM.cs`](./TheMochitsuki/Assets/Scripts/PlayScene/BGM.cs) | 
 
 
 ## 開発環境
