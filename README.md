@@ -6,12 +6,14 @@
 
 ピコピコハンマーにボタンを取り付けた杵と，ダンボールで成形し表面にボタンを取り付けた臼から送られる信号をArduinoからUnityへと送信し，餅つき動作を判定．
 
-詳細な技術解説・動作画面などは以下のNotionページにまとめています．
-https://www.notion.so/THE-THE-Mochi-Pounding-347306a87b49801b9d00ddbc96f5aca3?source=copy_link
+詳細な技術解説・動作画面などは[Notionページ](https://wholesale-beginner-8e9.notion.site/Portfolio-342306a87b498080903ac7872b637bb8?p=347306a87b49801b9d00ddbc96f5aca3&pm=c)にまとめています．
 
+---
 
-
-## リポジトリの構造
+## ⚒️ 開発環境
+- **Unity**：餅つき動作の判定，アニメーション
+- **Arduino**：杵・臼のボタン入力検知，シリアル通信（送信データ：杵="K"，臼="U"）
+- **Hardware**：自作の杵（ピコピコハンマーにボタン取り付け），臼（ダンボールで作成）
 
 
 
