@@ -42,6 +42,11 @@ Unity側の処理は以下のファイルにまとめています．
 | リザルト | [`SerialHandler_Result.cs`](./TheMochitsuki/Assets/Scripts/ResultScene/SerialHandler_Result.cs) | リザルト画面でのArduinoとUnityのシリアル通信 |
 | リザルト | [`SerialReceive_Result.cs`](./TheMochitsuki/Assets/Scripts/ResultScene/SerialReceive.cs) | リザルト画面でArduinoから送信されたデータによる処理 |
 
+### 3. シーンの役割
+<details>
+  <summary>各シーンの制御（クリックで展開）</summary>
 
-## 開発環境
-Unity, Arduino
+  - **StartScene**：杵のボタンを押すことで開始．表示される文字は表示/非表示を一定間隔で繰り返す.
+  - **PlayScene**：餅つき動作の判定．制限時間20秒の間にどれだけ餅つき動作を行えたかカウント．
+  - **ResultScene**：合計餅つき回数の表示．杵のボタンを押すと「タイトルへ戻る」，臼のボタンを押すと「もう一度」.
+</details>
