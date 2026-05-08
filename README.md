@@ -15,6 +15,20 @@
 - **Arduino**：杵・臼のボタン入力検知，シリアル通信（送信データ：杵="K"，臼="U"）
 - **Hardware**：自作の杵（ピコピコハンマーにボタン取り付け），臼（ダンボールで作成）
 
+## 📁 ソースコードの索引
+コードの役割ごとに分類しています．
+
+### 1. ハードウェア制御（Arduino）
+- [`arduino_unity_test.ino`](./arduino_unity_test.ino)
+  - 杵と臼の入力検知．Unityとのシリアル通信．
+ 
+### 2. ソフトウェア（Unity / Scripts）
+Unity側の処理は以下のファイルにまとめています．
+
+| スクリプト | 役割 |
+| :--- | :---|
+| [`ChangeOrder.cs`](./TheMochitsuki/Assets/Scripts/ChangeOrder.cs) | 画像やオブジェクトの重なりを調整 |
+|
 
 
 ## 開発環境
