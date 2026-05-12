@@ -40,7 +40,7 @@ Unity側の処理は以下のファイルにまとめています．
 | リザルト | [`BackTitle.cs`](./TheMochitsuki/Assets/Scripts/ResultScene/BackTitle.cs) | ボタンを押してタイトル画面に戻る処理 |
 | リザルト | [`Replay.cs`](./TheMochitsuki/Assets/Scripts/ResultScene/Replay.cs) | ボタンを押してプレイ画面に戻る処理 |
 | リザルト | [`SerialHandler_Result.cs`](./TheMochitsuki/Assets/Scripts/ResultScene/SerialHandler_Result.cs) | リザルト画面でのArduinoとUnityのシリアル通信 |
-| リザルト | [`SerialReceive_Result.cs`](./TheMochitsuki/Assets/Scripts/ResultScene/Serial_Receive.cs) | リザルト画面でArduinoから送信されたデータによる処理 |
+| リザルト | [`SerialReceive_Result.cs`](./TheMochitsuki/Assets/Scripts/ResultScene/SerialReceive_Result.cs) | リザルト画面でArduinoから送信されたデータによる処理 |
 
 ### 3. シーンの役割
 <details>
